@@ -70,8 +70,8 @@ cul-de-sac
 district
 door
 dorm
-downtown
 downstairs
+downtown
 drive
 driveway
 duplex
@@ -105,10 +105,10 @@ geofencing
 geographic
 geographical
 geography
-geolocation
 geolocate
 geolocated
 geolocating
+geolocation
 geomap
 geospatial
 geotag
@@ -144,20 +144,20 @@ landmark
 lane
 latitude
 left of
+locale
 locality
 locate
 located
 location
 locator
-locale
 longitude
 lot
 mansion
 map
 mapping
 market
-mews
 metropolitan
+mews
 mile marker
 mobile home
 motel
@@ -178,8 +178,8 @@ ocean
 office
 offshore
 on
-onsite
 on-site
+onsite
 opposite
 outside
 over
@@ -197,8 +197,8 @@ point
 porch
 position
 positioning
-postcode
 postal code
+postcode
 premises
 province
 quadplex
@@ -215,8 +215,8 @@ road
 route
 rural
 rv park
-satnav
 satellite
+satnav
 school
 sea
 seaport
@@ -251,8 +251,8 @@ top
 town
 town center
 town centre
-township
 townhouse
+township
 trailer park
 trailhead
 triplex
@@ -262,9 +262,9 @@ unit
 university
 upstairs
 urban
-village
 vicinity
 villa
+village
 warehouse
 waterfront
 way
