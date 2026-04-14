@@ -1,0 +1,247 @@
+a
+a sinistra di
+accanto
+accanto a
+adiacente a
+aeroporto
+al di fuori
+al largo
+albergo
+alloggiamento
+allontanarsi da
+altitudine
+altopiano
+ambasciata
+ambiente
+angolo
+anteriore
+appartamento
+arcipelago
+attraversamento
+attraverso
+autostrada
+azienda agricola
+baia
+bloccare
+bordo
+borgata
+borgo
+bungalow
+cabina
+campeggio
+campo
+campus
+canale
+cancello
+cap
+capitale
+casa
+casa mobile
+caseggiato
+casella postale
+centrale
+centro
+centro città
+chinarsi
+cimitero
+circostante
+città
+codice postale
+collina
+colonia
+complesso
+comune
+condominio
+confine
+contea
+continente
+coordinata
+coordinate
+coordinate geografiche
+cortile
+costa
+costiero
+crocevia
+da
+dentro
+di
+di fronte
+di fronte a
+di sopra
+dietro
+dimora
+direzione cardinale
+diritto di
+dormitorio
+dove si trova
+duplex
+edificio
+elevazione
+entrata
+entro
+entroterra
+est
+fermata dell'autobus
+fiume
+foresta
+forte
+fra
+frazione
+garage
+geo
+geocodifica
+geocodificato
+geocodificazione
+geofencing
+geografia
+geografico
+geolocalizzare
+geolocalizzato
+geolocalizzazione
+geomappa
+georeferenziato
+geospaziale
+geotag
+giunzione
+gps
+guidare
+in
+in giro
+indicatore del miglio
+indirizzo
+indirizzo di spedizione
+individuare
+inquilino
+intersezione
+isola
+isolotto
+itinerario
+latitudine
+locale
+località
+localizzatore
+longitudine
+lontano da
+lungo
+lungomare
+macchiare
+magazzino
+mappa
+mappatura
+mare
+mercato
+meridionale
+metropolitano
+miagolii
+modo
+mondo
+montagna
+montare
+motel
+navigatore satellitare
+nelle vicinanze
+nord
+nord-est
+nord-ovest
+numero di blocco
+occidentale
+oceano
+opposto
+orientale
+ospedale
+ostello
+ovest
+paese
+palazzo
+parcheggio
+parcheggio per camper
+parcheggio per roulotte
+parco
+passato
+passi
+pavimento
+pianeta
+piano inferiore
+piazza
+plaza
+ponte
+porta
+portico
+porto
+porto marittimo
+posizionamento
+posizionamento globale
+posizione
+posizione globale
+posto
+premesse
+proprietà
+provincia
+punto
+punto di controllo
+punto di riferimento
+quadruplo
+quantità
+quartiere
+quartiere dei teatri
+ranch
+recinto geografico
+regionale
+regione
+regno
+remoto
+residenza
+residenza cittadina
+residenziale
+ricorrere
+riferimento alla griglia
+rurale
+satellitare
+scuola
+sede
+seminterrato
+sentiero
+senza
+settentrionale
+settore
+sistema di posizionamento globale
+sito
+situato
+sobborgo
+sopra
+sotto
+spazio
+spiaggia
+stato
+stazione
+strada
+strada panoramica
+su
+suburbano
+sud
+sud-est
+sud-ovest
+suddivisione
+suite
+sul posto
+superiore
+terra
+territorio
+tribunale
+triplex
+ufficio
+unità
+università
+urbano
+uscita
+viale
+vialetto
+vicinanze
+vicino
+vicino a
+vicolo
+vicolo cieco
+villa
+villaggio
+villetta
+zona
