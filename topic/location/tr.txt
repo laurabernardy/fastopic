@@ -1,0 +1,227 @@
+ada
+adacık
+adres
+adımlar
+alan
+alt bölüm
+alt katta
+altında
+ana yön
+apartman
+apartman dairesi
+araba yolu
+arasında
+arka
+arka bahçe
+avlu
+açık
+açık deniz
+bahçe
+banliyö
+batı
+batılı
+başkent
+belediye
+bina
+birim
+birlikte
+bitişik
+blok numarası
+bodrum
+boylam
+bulunan
+bulvar
+bungalov
+bölge
+bölgesel
+büyükşehir
+cadde
+civar
+coğrafi
+coğrafi etiket
+coğrafi etiketli
+coğrafi harita
+coğrafi kod
+coğrafi kodlama
+coğrafi kodlanmış
+coğrafi konum
+coğrafi konum belirleme
+coğrafi konumlu
+coğrafi koordinat
+coğrafi sınır
+coğrafi sınırlama
+coğrafya
+daire
+dağ
+deniz
+depo
+doğu
+dubleks
+durum
+dönüm noktası
+dörtlü
+dünya
+dıştan
+elçilik
+emlak
+en
+engellemek
+enlem
+etrafında
+ev
+eğilmek
+garaj
+gezegen
+geçit
+geçiş
+geçmiş
+giriş
+gönderi adresi
+güney
+güneybatı
+güneydoğu
+hakkı
+harita
+haritalama
+hastane
+havalimanı
+ikamet
+ile
+ilçe
+istasyon
+itibaren
+iz başı
+iç bölge
+içeri
+içinde
+jeouzaysal
+kabin
+kale
+kamp
+kamp alanı
+kampüs
+kanal
+kapı
+karargah
+karavan parkı
+kare
+karmaşık
+karşısında
+kavşak
+kenar
+kentsel
+kiracı
+koloni
+komşu
+konak
+kontluk
+kontrol noktası
+konum
+konumlandırma
+konut
+koordinat
+koordinatlar
+koy
+krallık
+kuzey
+kuzeybatı
+kuzeydoğu
+köprü
+köy
+köşe
+küresel konum
+küresel konumlama sistemi
+küresel konumlandırma
+küresel konumlandırma sistemi
+kır evi
+kırsal
+kıta
+kıyı
+lane
+leke
+liman
+mahkeme
+merkez
+merkezi
+mezarlık
+mil işareti
+miyav
+mobil ev
+montaj
+motel
+nehir
+nerede
+nokta
+ofis
+okul
+okyanus
+olmadan
+orman
+otel
+otobüs durağı
+otopark
+otoyol
+pansiyon
+park
+park yolu
+pay
+pazar
+plato
+plaza
+posta kodu
+posta kutusu
+rakım
+rota
+sahil
+sektör
+semt
+sokak
+solunda
+sundurma
+süit
+sürmek
+sınır
+takımadalar
+tatil yeri
+tepe
+tiyatro bölgesi
+uydu
+uydu navigasyonu
+uzak
+uzaklaşmak
+uzakta
+uzay
+vilayet
+villa
+yakın
+yakında
+yanında
+yer
+yer alan
+yer bulucu
+yerel ayar
+yerinde
+yerini belirlemek
+yerleşim
+yol
+yurt
+yükseklik
+zemin
+zıt
+çevre
+çevreleyen
+çiftlik
+çıkmaz sokak
+çıkış
+ön
+önünde
+ülke
+üniversite
+üst katta
+üstünde
+üzerinde
+üçlü
+ızgara referansı
+şehir
+şehir evi
+şehir merkezi

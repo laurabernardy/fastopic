@@ -1,109 +1,242 @@
+adjacent à
 adresse
+adresse de livraison
+allée
+altitude
+ambassade
 appartement
-au-dessus
+archipel
+arrière-cour
+arrière-pays
+arrondissement
+arrêt de bus
+au large
+au-dessus de
 auberge
 autoroute
 autour
-avenue
-bachelor
+aéroport
+baie
 banlieue
-borne kilométrique
+bloc
+bord
 boulevard
-boutique
+boîte postale
 bungalow
 bureau
 bâtiment
-cabane
+cabine
+camp
 camping
+campus
+canal
+canton
+capital
 carrefour
-case postale
+carré
+carte
+cartographie
+central
+centre
+centre ville
+centre-ville
 chalet
+champ
+chemin
+ci-dessous
+cimetière
+clôture géographique
 code postal
 coin
-commerce
-condo
+colline
+colonie
+complexe
+comté
+conduire
+continent
+coordonner
+coordonnées
+coordonnées géographiques
+copropriété
 cour
-croissant
+côte
+côtier
+dans
+de banlieue
+dehors
+depuis
 derrière
+dessous
+devant
+direction cardinale
+district
 domaine
-domicile
-drive
+dortoir
+droit de
+du sud
 duplex
+début du sentier
+emplacement
 en bas
-en dessous
 en face de
 entre
 entrepôt
 entrée
+environnant
+environnement
+environs
+espace
 est
-expédition
-fenêtre
 ferme
+fort
+forêt
+front de mer
 garage
-géorepérage
-géotag
-hall
+gare
+gps
+grille
+géo
+géocarte
+géocodage
+géocoder
+géocodé
+géographie
+géographique
+géolocalisation
+géolocaliser
+géolocalisé
+géospatial
+hamlet
+haut
+hôpital
 hôtel
+immeuble
+impasse
+indiquer
 intersection
 itinéraire
 jonction
 latitude
+le long de
+lieu
+limite
+localisateur
+localité
+locataire
+locaux
+logement
 loin de
 longitude
-lot
-magasin
 maison
-maison en rangée
-maison mobile
-marches
-mews
+maison de ville
+manoir
+marché
+marqueur de kilomètre
+mer
+mesures
+mobil-home
+monde
+montagne
+monter
 motel
+municipalité
+métropolitain
 nord
 nord-est
 nord-ouest
+numéro de bloc
+occidental
+océan
+opposé
 ouest
-parc de maisons mobiles
-parc de VR
+où
+par
+parc
+parc de camping-car
+parc à roulottes
+parcelle
+parking
+passage
 passé
 pays
-perron
-pièce
 place
-plantation
+plage
+planète
+plateau
+point de contrôle
+point de repère
+pont
 porche
-portail
+port
+port de mer
 porte
+position
+position mondiale
+positionnement
+positionnement global
+proche
+proche de
 promenade
 province
+près
 près de
-pâté de maisons
-quadriplex
+quadplex
+quartier
+quartier des théâtres
+quartier général
 ranch
-restaurant
+reste de
+rivière
 route
+royaume
 rue
 ruelle
+rural
+référence de la grille
 région
+régional
 résidence
+résidentiel
+s'éloigner de
+sans
+satellite
+se baisser
+secteur
+site
+situer
+situé
 sol
 sortie
+sous
 sous-sol
-stationnement
+station balnéaire
+subdivision
 sud
 sud-est
 sud-ouest
 suite
+sur
+sur place
+système de positionnement global
+territoire
+tribunal
 triplex
+télécommande
 unité
-usine
+université
+urbain
 villa
+village
 ville
-voie d'accès
-zone de chargement
-zone de réception
+voie
+zone
+à
 à côté de
-à l'extérieur
 à l'intérieur
-à l'opposé
 à l'étage
-étage
+à travers
+école
+élévation
+état
+île
+îlot

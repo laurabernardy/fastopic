@@ -1,0 +1,246 @@
+abaixo
+acampar
+acima
+adjacente a
+aeroporto
+afaste-se de
+aldeia
+altitude
+aléia
+ambiente
+ao lado
+ao lado de
+apartamento
+apontar
+aproximar
+armazém
+arquipélago
+atrás
+autoestrada
+avenida
+bairro
+bangalô
+baía
+beco sem saída
+beira-mar
+bloquear
+borda
+cabana
+cabine
+caixa postal
+caminho
+campo
+campus
+canal
+canto
+capital
+casa
+casa móvel
+cemitério
+central
+centro
+centro da cidade
+cep
+cerca geográfica
+chão
+cidade
+circundante
+colina
+colônia
+complexo
+condado
+condomínio
+continente
+coordenada
+coordenada geográfica
+coordenadas
+cortiço
+costa
+costeira
+cruzamento
+código postal
+de
+debaixo de
+dentro
+dentro de
+direito de
+direção cardeal
+dirigir
+distrito
+distrito dos teatros
+dormitório
+duplex
+elevação
+em
+em frente
+em frente de
+em volta
+embaixada
+encruzilhada
+endereço
+endereço para envio
+entrada
+entrada de automóveis
+entre
+escola
+escritório
+espaço
+esquerda de
+estacionamento
+estado
+estação
+estrada
+estábulos
+faixa
+fazenda
+floresta
+fora
+forte
+frente
+garagem
+geocodificado
+geocodificação
+geocódigo
+geoespacial
+geografia
+geográfico
+geolocalizado
+geolocalizar
+geolocalização
+geomapa
+georreferenciado
+georreferenciação
+gps
+habitação
+hospital
+hostel
+hotel
+ilha
+ilhota
+inclinar-se
+inquilino
+instalações
+interseção
+início da trilha
+junto
+junção
+lar
+latitude
+leste
+limite
+localidade
+localizado
+localizador
+localizar
+localização
+localização geográfica
+longe de
+longitude
+lugar
+lá em cima
+lá embaixo
+mansão
+mapa
+mapeamento
+mar
+marcador de milha
+marco
+mercado
+metropolitano
+montanha
+montar
+moradia
+motel
+muito
+mundo
+município
+navegação por satélite
+no
+no local
+nordeste
+noroeste
+norte
+número do bloco
+oceano
+ocidental
+oeste
+offshore
+oposto
+oriental
+para
+paradeiro
+parque
+parque de caravanas
+passado
+passos
+país
+perto de
+planeta
+platô
+ponte
+ponto de ônibus
+por
+porta
+porto
+portão
+porão
+posicionamento
+posicionamento global
+posição
+posição global
+posto de controle
+praia
+praça
+principal
+propriedade
+província
+prédio
+próximo
+pátio
+quadrado
+quintal
+quádruplo
+rancho
+recorrer
+referência de grade
+regional
+região
+reino
+remoto
+residencial
+residência
+rio
+rota
+rua
+rural
+satélite
+saída
+sede
+sem
+sertão
+setor
+sistema de posicionamento global
+site
+situado
+sob
+sobre
+subdivisão
+suburbano
+subúrbio
+sudeste
+sudoeste
+sul
+suíte
+território
+tribunal
+tríplex
+unidade
+universidade
+urbano
+varanda
+ver
+vila
+vizinhança
+zona
+área
+área de camping

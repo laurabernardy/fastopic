@@ -1,0 +1,247 @@
+a
+a lo largo de
+abajo
+acampar
+adentro
+adyacente a
+aeropuerto
+afuera
+agacharse
+al lado de
+al otro lado de
+albergue
+aldea
+alejarse de
+alojamiento
+alrededor
+altitud
+ambiente
+aparcamiento
+apartado de correos
+archipiélago
+arrendatario
+arriba
+autopista
+avenida
+bahía
+bajo
+bienes
+bloquear
+borde
+bosque
+bulevar
+bungalow
+caballeriza
+cabaña
+cabina
+calle
+calle sin salida
+callejón
+camino
+campo
+campus
+canal
+capital
+carretera
+carril
+cartografía
+casa
+casa adosada
+casa móvil
+cementerio
+central
+centro
+centro de la ciudad
+cerca
+cerca de
+cercano
+circundante
+ciudad
+cochera
+colina
+colonia
+comienzo del sendero
+complejo
+condado
+condominio
+conducir
+continente
+control
+coordenadas
+coordenadas geográficas
+coordinar
+corte
+costa
+costa afuera
+costero
+cruce
+cuadrado
+cuádruple
+código postal
+de
+debajo
+del norte
+del sur
+delante de
+dentro
+departamento
+depósito
+derecho de
+detrás
+dirección
+dirección cardinal
+dirección de envío
+distrito
+distrito de teatro
+dúplex
+edificio
+elevación
+embajada
+en
+encima
+encrucijada
+entrada
+entrada de coches
+entre
+escuela
+espacio
+esquina
+estación
+estado
+este
+etiqueta geográfica
+forma
+frente
+frente a
+frente al mar
+fuerte
+geo
+geocerca
+geocercado
+geocodificación
+geocodificado
+geocodificar
+geoespacial
+geoetiquetado
+geografía
+geográfico
+geolocalización
+geolocalizado
+geolocalizando
+geolocalizar
+geomapa
+gps
+granja
+hogar
+hospital
+hotel
+in situ
+instalaciones
+intersección
+isla
+isleta
+izquierda de
+junto a
+latitud
+lejos de
+locador
+localidad
+localizar
+longitud
+lote
+lugar
+límite
+mapa
+mar
+marca
+marcador de milla
+mercado
+meseta
+metropolitano
+montar
+montaña
+motel
+mundo
+municipio
+navegación por satélite
+nordeste
+noroeste
+norte
+número de bloque
+occidental
+océano
+oeste
+oficina
+opuesto
+oriental
+palacio
+parada de autobús
+paradero
+parque
+parque de casas rodantes
+pasado
+pasos
+patio
+patio interior
+país
+piso
+piso superior
+planeta
+playa
+plaza
+por
+porche
+posicionamiento
+posicionamiento global
+posición
+posición global
+provincia
+puente
+puerta
+puerto
+puerto marítimo
+punto
+rancho
+referencia de cuadrícula
+regional
+región
+reino
+remoto
+residencia
+residencia universitaria
+residencial
+retaguardia
+rural
+ruta
+río
+salida
+satélite
+sector
+sede
+sin
+sistema de posicionamiento global
+sitio
+situado
+subdivisión
+suburbano
+suburbio
+sudeste
+suelo
+suite
+sur
+suroeste
+sótano
+terreno de camping
+territorio
+triple
+ubicación
+unidad
+universidad
+unión
+urbano
+vecindad
+vecindario
+villa
+vivienda
+zona
+área

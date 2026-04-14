@@ -1,0 +1,215 @@
+alamat
+alamat pengiriman
+alun-alun
+apartemen
+arah mata angin
+asrama
+atas
+bagian
+bandara
+bangunan
+banyak
+barat
+barat daya
+barat laut
+batas
+benteng
+benua
+beranda
+berdekatan dengan
+berlokasi geografis
+bersama
+bidang
+bukit
+bumi perkemahan
+bungalo
+daerah
+dari
+dataran tinggi
+dekat dengan
+depan
+deretan kandang kuda
+desa
+di antara
+di atas
+di bawah
+di belakang
+di dalam
+di dekat
+di dekat sini
+di depan
+di lepas pantai
+di luar
+di samping
+di sebelah
+di seberang
+di tempat
+diberi tag geografis
+dikodekan secara geografis
+dimana
+distrik teater
+dukuh
+dunia
+gang
+garasi
+garis bujur
+geografi
+geografis
+geolokasi
+geospasial
+gerbang
+gps
+gudang
+gunung
+halaman
+halaman belakang
+halte bus
+hotel
+hutan
+jalan
+jalan buntu
+jalan masuk
+jalan parkir
+jalan raya
+jalur
+jauh dari
+kabin
+kamp
+kampus
+kanal
+kanan dari
+kantor
+ke
+kedutaan
+keluar
+kepulauan
+kerajaan
+ketinggian
+kiri dari
+kode geografis
+kode pos
+koloni
+kompleks
+kondominium
+koordinat
+koordinat geografis
+kota
+kotak po
+kotamadya
+kotapraja
+landmark
+lantai
+laut
+lebih
+lingkungan
+lintang
+lintas
+lokal
+lokalitas
+lokasi
+markas besar
+masa lalu
+memblokir
+membungkuk
+menemukan
+menjauh dari
+menjembatani
+menyetir
+metropolitan
+modal
+motel
+navigasi satelit
+negara
+nomor blok
+oleh
+pada
+pantai
+parkir
+pasar
+pedalaman
+pedesaan
+pelabuhan
+pelabuhan laut
+pemakaman
+pembatasan wilayah
+pemetaan
+penanda mil
+pencari lokasi
+penentuan posisi
+pengadilan
+pengkodean geografis
+penyewa
+perkebunan
+perkotaan
+persegi
+persimpangan
+perumahan
+pesisir
+peta
+peta geografis
+peternakan
+pinggiran kota
+pintu
+pintu masuk
+planet
+pondok
+pos pemeriksaan
+posisi
+posisi global
+propinsi
+pulau
+pulau kecil
+pusat
+pusat kota
+rangkap
+referensi jaringan
+regional
+resor
+rsud
+ruang angkasa
+ruang bawah tanah
+rumah
+rumah besar
+rumah kota
+rumah mobil
+rumah petak
+rute
+satelit
+satuan
+segi empat
+sekitar
+sekitarnya
+sekolah
+sektor
+selatan
+sistem penentuan posisi global
+stasiun
+sudut
+suite
+sungai
+tag geografis
+taman
+taman rv
+taman trailer
+tanah
+tangga
+tanpa
+teluk
+tempat
+tempat parkir mobil
+tempat tinggal
+tengah
+tenggara
+tepi laut
+tepian
+terletak
+terpencil
+timur
+timur laut
+titik
+tripleks
+ujung jalan setapak
+universitas
+utara
+vila
+wilayah
