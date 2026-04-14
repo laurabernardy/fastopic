@@ -44,6 +44,11 @@ def load_bloom_file(path: Path) -> Any:
 
     bloom_cls = poppy.BloomFilter
 
+    if hasattr(poppy, "load"):
+        loaded = poppy.load(path.as_posix())
+        if loaded is not None:
+            return loaded
+
     if hasattr(bloom_cls, "load"):
         try:
             loaded = bloom_cls.load(path.as_posix())
