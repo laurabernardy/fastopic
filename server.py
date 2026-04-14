@@ -46,15 +46,20 @@ def summarize_matches(
     top_n: int,
 ) -> dict[str, Any]:
     token_counts = Counter(tokens)
+    total_tokens = len(tokens)
     match_counts = {
         filter_name: sum(count for token, count in token_counts.items() if bloom_index.query_one(filter_name, token))
         for filter_name in filter_names
     }
+    match_ratios = {
+        filter_name: (count / total_tokens if total_tokens else 0.0)
+        for filter_name, count in match_counts.items()
+    }
     top_filters = [
-        {"filter": filter_name, "count": count}
+        {"filter": filter_name, "count": count, "ratio": match_ratios[filter_name]}
         for filter_name, count in sorted(match_counts.items(), key=lambda item: (-item[1], item[0]))[:top_n]
     ]
-    return {"filter_counts": match_counts, "top_filters": top_filters}
+    return {"filter_counts": match_counts, "filter_ratios": match_ratios, "top_filters": top_filters}
 
 
 def iter_bloom_files(filters_dir: Path) -> list[Path]:
