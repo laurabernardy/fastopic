@@ -95,6 +95,12 @@ Optional debug mode:
 python server.py --filters-dir bloomfilters --debug
 ```
 
+Context extraction tuning (for `/api/query-text`):
+
+- `--context-min-count` (default `2`): minimum matched-token count in a filter before context extraction is emitted.
+- `--context-min-ratio` (default `0.05`): minimum matched-token ratio in a filter before context extraction is emitted.
+- `--context-window-words` (default `10`): words included before and after each matching token.
+
 ## API reference
 
 Base URL (local): `http://127.0.0.1:5000`
@@ -139,7 +145,8 @@ Query membership for one topic.
 
 ### `POST /api/query-text`
 
-Extract words from a full input text (regex tokenizer), test each token against one or more Bloom filters, and return occurrence counts per filter plus a ranked top list.
+Extract words from a full input text (regex tokenizer), test each token against one or more Bloom filters, and return occurrence counts per filter plus a ranked top list.  
+When a filter reaches the configured count+ratio thresholds, the API also returns contextual excerpts around matching words.
 
 JSON body:
 
@@ -155,6 +162,21 @@ Response example:
   "token_count": 8,
   "unique_token_count": 7,
   "analyzed_filters": ["combined", "country/en", "location/en"],
+  "context_extraction_config": {
+    "min_match_count": 2,
+    "min_match_ratio": 0.05,
+    "window_words": 10
+  },
+  "potential_contexts": [
+    {
+      "filter": "location/en",
+      "match_word": "Paris",
+      "match_index": 0,
+      "context_start_index": 0,
+      "context_end_index": 7,
+      "context": "Paris is in France and Paris has cafes"
+    }
+  ],
   "filter_counts": {
     "combined": 3,
     "country/en": 1,
@@ -244,4 +266,3 @@ python server.py --filters-dir bloomfilters --port 5000
 # 4) query API
 curl -sG --data-urlencode "topic=paris" http://127.0.0.1:5000/api/query
 ```
-
