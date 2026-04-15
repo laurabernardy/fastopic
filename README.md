@@ -1,6 +1,7 @@
 # fastopic
 
 Fastopic is a lightweight topic-classification project that uses **Bloom filters** to do very fast membership checks on text labels/topics.
+The current filters help quickly identify content that may contain geolocation elements before performing a full lookup on every word.
 
 The repository includes:
 
