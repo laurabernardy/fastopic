@@ -213,3 +213,7 @@ universitas
 utara
 vila
 wilayah
+jl
+kab
+kec
+kel

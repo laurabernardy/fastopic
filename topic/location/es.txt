@@ -245,3 +245,11 @@ villa
 vivienda
 zona
 área
+barrio
+ejido
+fraccionamiento
+paseo
+rambla
+urbanización
+depto
+dpto

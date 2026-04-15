@@ -247,3 +247,8 @@ zwischen
 östlich
 über
 überschneidung
+pfad
+ring
+steig
+strasse
+ufer

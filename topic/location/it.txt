@@ -245,3 +245,6 @@ villa
 villaggio
 villetta
 zona
+contrada
+corso
+via

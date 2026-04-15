@@ -244,3 +244,10 @@ gps
 юго-восток
 юго-запад
 южный
+oblast
+bulvar
+pereulok
+prospekt
+ul
+ulitsa
+бул

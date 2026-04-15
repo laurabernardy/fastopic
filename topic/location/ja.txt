@@ -247,3 +247,9 @@ rvパーク
 高度
 高速道路
 鳴く
+prefecture
+ban
+chōme
+gō
+号
+番

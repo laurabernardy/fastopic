@@ -244,3 +244,5 @@ vizinhança
 zona
 área
 área de camping
+rodovia
+travessa

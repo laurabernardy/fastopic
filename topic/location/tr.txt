@@ -225,3 +225,15 @@ zıt
 şehir
 şehir evi
 şehir merkezi
+mahalle
+ap
+apartmanı
+blv
+bulvarı
+cad
+caddesi
+cd
+mah
+mahallesi
+mh
+sk

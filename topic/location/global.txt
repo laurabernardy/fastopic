@@ -1,0 +1,7 @@
+Apartment
+Block
+Building
+Entrance
+Floor
+Tower
+Unit
