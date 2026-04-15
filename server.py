@@ -35,8 +35,52 @@ class BloomIndex:
         return {name: self.query_one(name, topic) for name in names}
 
 
+@dataclass(frozen=True)
+class ContextExtractionConfig:
+    min_match_count: int
+    min_match_ratio: float
+    window_words: int
+
+
 def tokenize_text(text: str) -> list[str]:
     return [match.group(0).lower() for match in WORD_PATTERN.finditer(text)]
+
+
+def should_extract_context(count: int, ratio: float, config: ContextExtractionConfig) -> bool:
+    return count >= config.min_match_count and ratio >= config.min_match_ratio
+
+
+def extract_context_windows(
+    original_text: str,
+    filter_name: str,
+    matching_words: set[str],
+    window_words: int,
+) -> list[dict[str, Any]]:
+    if not matching_words:
+        return []
+
+    original_tokens = [match.group(0) for match in WORD_PATTERN.finditer(original_text)]
+    lowered_tokens = [token.lower() for token in original_tokens]
+    contexts: list[dict[str, Any]] = []
+
+    for index, token in enumerate(lowered_tokens):
+        if token not in matching_words:
+            continue
+
+        start_idx = max(0, index - window_words)
+        end_idx = min(len(original_tokens), index + window_words + 1)
+        contexts.append(
+            {
+                "filter": filter_name,
+                "match_word": original_tokens[index],
+                "match_index": index,
+                "context_start_index": start_idx,
+                "context_end_index": end_idx - 1,
+                "context": " ".join(original_tokens[start_idx:end_idx]),
+            }
+        )
+
+    return contexts
 
 
 def summarize_matches(
@@ -80,7 +124,15 @@ def summarize_matches(
         }
         for filter_name, count in sorted(match_counts.items(), key=lambda item: (-item[1], item[0]))[:top_n]
     ]
-    return {"filter_counts": match_counts, "filter_ratios": match_ratios, "top_filters": top_filters}
+    return {
+        "filter_counts": match_counts,
+        "filter_ratios": match_ratios,
+        "top_filters": top_filters,
+        "filter_matching_words": {
+            filter_name: [token for token, _count in matching_tokens_by_filter[filter_name]]
+            for filter_name in filter_names
+        },
+    }
 
 
 def iter_bloom_files(filters_dir: Path) -> list[Path]:
@@ -130,7 +182,7 @@ def load_bloomfilters(filters_dir: Path) -> BloomIndex:
     return BloomIndex(filters=filters, source_dir=filters_dir)
 
 
-def create_app(filters_dir: Path) -> Flask:
+def create_app(filters_dir: Path, context_config: ContextExtractionConfig) -> Flask:
     app = Flask(__name__)
 
     try:
@@ -221,6 +273,23 @@ def create_app(filters_dir: Path) -> Flask:
 
         tokens = tokenize_text(text)
         summary = summarize_matches(bloom_index, tokens, filter_names, min(top_n, len(filter_names)))
+        potential_contexts: list[dict[str, Any]] = []
+        filter_ratios = summary["filter_ratios"]
+        matching_words_by_filter = {
+            filter_name: set(words) for filter_name, words in summary["filter_matching_words"].items()
+        }
+        for filter_name, count in summary["filter_counts"].items():
+            ratio = filter_ratios[filter_name]
+            if not should_extract_context(count, ratio, context_config):
+                continue
+            potential_contexts.extend(
+                extract_context_windows(
+                    original_text=text,
+                    filter_name=filter_name,
+                    matching_words=matching_words_by_filter.get(filter_name, set()),
+                    window_words=context_config.window_words,
+                )
+            )
 
         return jsonify(
             {
@@ -228,6 +297,12 @@ def create_app(filters_dir: Path) -> Flask:
                 "token_count": len(tokens),
                 "unique_token_count": len(set(tokens)),
                 "analyzed_filters": filter_names,
+                "context_extraction_config": {
+                    "min_match_count": context_config.min_match_count,
+                    "min_match_ratio": context_config.min_match_ratio,
+                    "window_words": context_config.window_words,
+                },
+                "potential_contexts": potential_contexts,
                 **summary,
             }
         )
@@ -246,12 +321,44 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--host", default="0.0.0.0", help="Host interface to bind (default: 0.0.0.0)")
     parser.add_argument("--port", default=5000, type=int, help="Port to listen on (default: 5000)")
     parser.add_argument("--debug", action="store_true", help="Enable Flask debug mode")
+    parser.add_argument(
+        "--context-min-count",
+        default=2,
+        type=int,
+        help="Minimum number of matching tokens in a filter before extracting contexts (default: 2)",
+    )
+    parser.add_argument(
+        "--context-min-ratio",
+        default=0.05,
+        type=float,
+        help="Minimum match ratio in a filter before extracting contexts (default: 0.05)",
+    )
+    parser.add_argument(
+        "--context-window-words",
+        default=10,
+        type=int,
+        help="Number of words before/after a matching token to include in extracted context (default: 10)",
+    )
     return parser.parse_args()
 
 
 def main() -> int:
     args = parse_args()
-    app = create_app(args.filters_dir)
+    if args.context_min_count < 1:
+        raise ValueError("--context-min-count must be at least 1")
+    if args.context_min_ratio < 0:
+        raise ValueError("--context-min-ratio must be >= 0")
+    if args.context_window_words < 0:
+        raise ValueError("--context-window-words must be >= 0")
+
+    app = create_app(
+        args.filters_dir,
+        context_config=ContextExtractionConfig(
+            min_match_count=args.context_min_count,
+            min_match_ratio=args.context_min_ratio,
+            window_words=args.context_window_words,
+        ),
+    )
     app.run(host=args.host, port=args.port, debug=args.debug)
     return 0
 
